@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[app.factory('$1', ['\$resource', function(\$resource) {
+	return {
+		function1: function() {
+			return ...;
+		},
+		function2: function() {
+			return ...;
+		}
+	};				
+}]);]]></content>
+	<tabTrigger>aservice</tabTrigger>
+	<scope>source.js</scope>
+	<description>AngularJS service</description>
+</snippet>

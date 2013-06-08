@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[describe("$1", function() {
+
+	beforeEach(function() {
+
+	});
+
+	it('$2', function() {
+		$3expect(1).toBe(1);
+	});
+
+	afterEach(function() {
+
+	});
+});]]></content>
+	<tabTrigger>describe</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
