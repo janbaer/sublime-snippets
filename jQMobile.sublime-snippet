@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[<link rel="stylesheet" href="css/jquery.mobile-1.1.0.min.css" />
+<script type="text/javascript" src="scripts/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.mobile-1.1.0.min.js"></script>]]></content>
+	<tabTrigger>jqmobile</tabTrigger>
+	<scope>text.html</scope>
+</snippet>
