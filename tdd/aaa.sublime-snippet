@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[// ARRANGE
+$1
+// ACT
+
+// ASSERT ]]></content>
+	<tabTrigger>aaa</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
