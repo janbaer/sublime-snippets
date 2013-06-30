@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[module.exports = function () {
+  'use strict';
+
+  $1
+};]]></content>
+  <tabTrigger>module</tabTrigger>
+  <scope>source.js</scope>
+  <description>Module for node.js</description>
+</snippet>
