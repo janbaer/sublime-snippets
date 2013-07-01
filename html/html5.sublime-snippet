@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[[<!DOCTYPE html>]
+<html>
+<head>
+	<title>$1</title>
+	<script>
+
+	</script>
+</head>
+<body>
+$0
+</body>
+</html>]]></content>
+	<tabTrigger>html5</tabTrigger>
+	<scope>text.html</scope>
+</snippet>
