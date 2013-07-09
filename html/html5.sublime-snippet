@@ -1,14 +1,16 @@
 <snippet>
-	<content><![CDATA[[<!DOCTYPE html>]
+	<content><![CDATA[<!DOCTYPE html>
 <html>
 <head>
 	<title>$1</title>
-	<script>
-
-	</script>
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-$0
+  $3
+  <script src="$2"></script>
+  <script>
+
+  </script>
 </body>
 </html>]]></content>
 	<tabTrigger>html5</tabTrigger>
