@@ -1,8 +1,7 @@
 <snippet>
-	<content><![CDATA[describe("$1", function() {
+	<content><![CDATA[describe('$1', function() {
 
 	beforeEach(function() {
-
 	});
 
 	it('$2', function() {
@@ -10,7 +9,6 @@
 	});
 
 	afterEach(function() {
-
 	});
 });]]></content>
 	<tabTrigger>describe</tabTrigger>
