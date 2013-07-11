@@ -1,16 +1,10 @@
 <snippet>
   <content><![CDATA[suite('$1', function () {
   setup(function () {
-
   });
 
   test('$2', function () {
-    // ARRANGE
-
-    // ACT
-
-    // ASSERT
-
+$3
   });
 });]]></content>
   <tabTrigger>suite</tabTrigger>
