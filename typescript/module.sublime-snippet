@@ -1,0 +1,28 @@
+<snippet>
+  <content><![CDATA[/// <reference path='anyfile.d.ts' />
+
+export module $1 {
+  export interface $2 {
+    firstName: string;
+    lastName: string;
+  }
+  export class $3 implements $2 {
+    public firstName: string;
+    public lastName: string;
+
+    constructor(firstName: string, lastName: string) {
+      this.firstName = firstName;
+      this.lastName = lastName;
+    }
+
+    public getFullName() {
+      return this.firstName + this.lastName;
+    }
+  }
+  export class SuperCustomer extends Customer {
+  }
+}]]></content>
+  <tabTrigger>module</tabTrigger>
+  <scope>source.ts</scope>
+  <description>Creates a new module in typescript</description>
+</snippet>
