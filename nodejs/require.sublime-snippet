@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[var $1 = require('$1');$2]]></content>
-  <tabTrigger>require</tabTrigger>
+  <tabTrigger>rq</tabTrigger>
   <scope>source.js,source.ts</scope>
   <description>Require statement</description>
 </snippet>
