@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[describe('When $1', function () {
+  $0
+});]]></content>
+  <tabTrigger>when</tabTrigger>
+  <scope>source.js,source.ts</scope>
+</snippet>

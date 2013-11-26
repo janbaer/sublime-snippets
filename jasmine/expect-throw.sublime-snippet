@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[expect(function () {
+  $1
+}).toThrow(new Error('${2:message}'))]]></content>
+  <tabTrigger>et</tabTrigger>
+  <scope>source.js,source.ts</scope>
+</snippet>
