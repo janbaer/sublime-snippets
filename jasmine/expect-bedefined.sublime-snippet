@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[expect(${1:target}).toBeDefinded();$0]]></content>
+  <tabTrigger>ebd</tabTrigger>
+  <scope>source.js,source.ts</scope>
+</snippet>

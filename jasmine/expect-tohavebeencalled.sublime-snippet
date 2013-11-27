@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[expect(${1:target}).toHaveBeenCalled();$0]]></content>
+  <tabTrigger>ehbc</tabTrigger>
+  <scope>source.js,source.ts</scope>
+</snippet>
