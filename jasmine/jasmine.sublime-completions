@@ -3,6 +3,6 @@
   "version": "1.0,"
   "completions":
   [
-    { "trigger": "ete", "contents": "expect(${1:target}).toEqual(${2:value});" },
+    { "trigger": "ete", "contents": "expect(${1:target}).toEqual(${2:value});" }
   ]
 }
