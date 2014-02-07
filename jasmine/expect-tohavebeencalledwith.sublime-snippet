@@ -1,5 +1,0 @@
-<snippet>
-  <content><![CDATA[expect(${1:target}).toHaveBeenCalledWith(${2:value});]]></content>
-  <tabTrigger>ehbcw</tabTrigger>
-  <scope>source.js,source.ts</scope>
-</snippet>

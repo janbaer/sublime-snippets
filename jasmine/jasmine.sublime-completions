@@ -1,8 +1,12 @@
 {
-  "scope": "source.js",
-  "version": "1.0,"
-  "completions":
-  [
-    { "trigger": "ete", "contents": "expect(${1:target}).toEqual(${2:value});" }
+  "scope": "-string -comment -constant",
+  "version": "1.0,",
+  "completions": [
+    { "trigger": "ete", "contents": "expect(${1:target}).toEqual(${2:value});" },
+    { "trigger": "etb", "contents": "expect(${1:target}).toBe(${2:value});" },
+    { "trigger": "etbd", "contents": "expect(${1:target}).toBeDefinded();$0" },
+    { "trigger": "ethbc", "contents": "expect(${1:target}).toHaveBeenCalled();$0" },
+    { "trigger": "ethbcw", "contents": "expect(${1:target}).toHaveBeenCalledWith(${2:value});" },
+    { "trigger": "et", "contents": "expect(function () { $1 }).toThrow(new Error('${2:message}'))" }
   ]
 }
