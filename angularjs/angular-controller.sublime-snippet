@@ -1,10 +1,9 @@
 <snippet>
-	<content><![CDATA[app.controller('$1', ['$scope',
-  function MyCtrl($scope) {
-    $2...
+	<content><![CDATA[${1:app}.controller('${2:MyCtrl}', ['\$scope', function (\$scope) {
+    $3
   }
 ]);]]></content>
-	<tabTrigger>acontroller</tabTrigger>
+	<tabTrigger>ctrl</tabTrigger>
 	<scope>source.js</scope>
 	<description>AngularJS controller</description>
 </snippet>
