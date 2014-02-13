@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[describe('${1:ctrl}', function () {
+  var scope, controller;
+
+  beforeEach(function () {
+    module('${2:app}');
+  });
+
+  beforeEach(inject(function (\$injector, \$rootScope, \$controller) {
+    scope = \$rootScope.\$new();
+
+    controller = \$controller('$1', {
+      \$scope: scope
+    });
+  }));
+
+  $3
+});]]></content>
+  <tabTrigger>ctrltest</tabTrigger>
+  <scope>source.js</scope>
+  <description>AngularJS controller tests</description>
+</snippet>

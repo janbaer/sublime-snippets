@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[describe('${1:service} tests', function () {
+  var service, httpMock;
+
+  beforeEach(function () {
+    module('${2:app}');
+  });
+
+  beforeEach(inject(function (\$injector) {
+    httpMock = $injector.get('$httpBackend');
+    settingsService = $injector.get('$1');
+  }));
+
+  $3
+});]]></content>
+  <tabTrigger>svctest</tabTrigger>
+  <scope>source.js</scope>
+  <description>AngularJS service tests</description>
+</snippet>

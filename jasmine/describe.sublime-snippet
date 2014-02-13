@@ -2,6 +2,6 @@
   <content><![CDATA[describe('${1}', function () {
   $0
 });]]></content>
-  <tabTrigger>describe</tabTrigger>
+  <tabTrigger>desc</tabTrigger>
   <scope>source.js,source.ts</scope>
 </snippet>
