@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[describe('and ${1}', function () {
+  $0
+});]]></content>
+  <tabTrigger>and</tabTrigger>
+  <scope>source.js,source.ts</scope>
+</snippet>
