@@ -1,7 +1,8 @@
 <snippet>
-  <content><![CDATA[(function ($1) {
-  $0
-})();]]></content>
+  <content><![CDATA[(function ($2) {
+  'use strict';
+  $SELECTION$0
+})($1);]]></content>
   <tabTrigger>iify</tabTrigger>
   <description>iffy - immediately invoked function expression</description>
   <scope>source.js</scope>
