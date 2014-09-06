@@ -6,9 +6,10 @@
     { "trigger": "ee", "contents": "expect(${1:target}).toEqual(${2:value});" },
     { "trigger": "etb", "contents": "expect(${1:target}).toBe(${2:value});" },
     { "trigger": "eb", "contents": "expect(${1:target}).toBe(${2:value});" },
-    { "trigger": "etbd", "contents": "expect(${1:target}).toBeDefinded();$0" },
+    { "trigger": "etbd", "contents": "expect(${1:target}).toBeDefined();$0" },
+    { "trigger": "entbd", "contents": "expect(${1:target}).not.toBeDefined();$0" },
     { "trigger": "ethbc", "contents": "expect(${1:target}).toHaveBeenCalled();$0" },
     { "trigger": "ethbcw", "contents": "expect(${1:target}).toHaveBeenCalledWith(${2:value});" },
-    { "trigger": "et", "contents": "expect(function () { $1 }).toThrow(new Error('${2:message}'))" }
+    { "trigger": "eth", "contents": "expect(function () { $1 }).toThrow(new Error('${2:message}'))" }
   ]
 }
