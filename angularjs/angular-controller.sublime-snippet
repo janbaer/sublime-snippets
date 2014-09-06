@@ -1,9 +1,14 @@
 <snippet>
-	<content><![CDATA[${1:app}.controller('${2:MyCtrl}', ['\$scope', function (\$scope) {
-    $3
-  }
-]);]]></content>
-	<tabTrigger>ctrl</tabTrigger>
+	<content><![CDATA[(function (${2:moduleName}) {
+  'use strict';
+
+  ${2:moduleName}.controller('${3:MyCtl}', ['\$scope',
+    function (\$scope) {
+      $0
+    }
+  ]);
+})(angular.module('${1:namespace}'));]]></content>
+	<tabTrigger>controller</tabTrigger>
 	<scope>source.js</scope>
 	<description>AngularJS controller</description>
 </snippet>

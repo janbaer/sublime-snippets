@@ -1,0 +1,38 @@
+<snippet>
+  <content><![CDATA[describe('Directive${1:myDirective}', function () {
+  'use strict';
+
+  var \$rootScope, \$compile;
+
+  beforeEach(function () {
+    module('${2:appName}');
+
+    inject(function (\$injector) {
+      \$rootScope = \$injector.get('\$rootScope');
+      \$compile = \$injector.get('\$compile');
+    });
+  });
+
+  var createAndCompileHtml = function (scope, html) {
+    var element = angular.element(html);
+    \$compile(element)(scope);
+    scope.\$digest();
+    return element;
+  };
+
+  describe('', function () {
+    var \$scope, \$element,
+        html = '<input on-blur="blurEmail()">';
+
+    beforeEach(function () {
+      \$scope = \$rootScope;
+
+      \$element = createAndCompileHtml(\$scope, html);
+    });
+
+  });
+});]]></content>
+  <tabTrigger>directive.spec</tabTrigger>
+  <scope>source.js</scope>
+  <description>AngularJS controller tests</description>
+</snippet>

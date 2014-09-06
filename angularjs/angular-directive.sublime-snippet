@@ -1,0 +1,24 @@
+<snippet>
+  <content><![CDATA[(function (${2:moduleName}) {
+  'use strict';
+
+  ${2:moduleName}.controller('${3:myDirective}', [
+    function () {
+      return {
+        require: 'ngModel',
+        scope: {
+        },
+        restrict: 'EA',
+        template: '<div></div>'
+        templateUrl: 'template.tpl.html',
+        link: function (scope, element, attributes) {
+          $0
+        }
+      };
+    }
+  ]);
+})(angular.module('${1:namespace}'));]]></content>
+  <tabTrigger>directive</tabTrigger>
+  <scope>source.js</scope>
+  <description>AngularJS directive</description>
+</snippet>

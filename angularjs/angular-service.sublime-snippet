@@ -1,12 +1,18 @@
 <snippet>
-	<content><![CDATA[${1:app}.factory('${2:MyService}', ['\$resource', function(\$resource) {
-	return {
-		function1: function() {
-			$3
-		}
-	};
-}]);]]></content>
-	<tabTrigger>svc</tabTrigger>
+	<content><![CDATA[(function (${2:services}) {
+  'use strict';
+
+  ${2:services}.factory('${3:MyService}', ['\$http',
+    function(\$http) {
+      $0
+      return {
+      };
+    }
+  ]);
+})(angular.module('${1:namespace}'));
+
+]]></content>
+	<tabTrigger>service</tabTrigger>
 	<scope>source.js</scope>
 	<description>AngularJS service</description>
 </snippet>
