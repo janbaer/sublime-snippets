@@ -10,7 +10,7 @@
 
   beforeEach(inject(function (\$injector) {
     httpMock = \$injector.get('\$httpBackend');
-    settingsService = \$injector.get('$1');
+    service = \$injector.get('$1');
   }));
 
   $0

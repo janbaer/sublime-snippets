@@ -2,14 +2,14 @@
   <content><![CDATA[(function (${2:moduleName}) {
   'use strict';
 
-  ${2:moduleName}.controller('${3:myDirective}', [
+  ${2:moduleName}.directive('${3:myDirective}', [
     function () {
       return {
         require: 'ngModel',
         scope: {
         },
         restrict: 'EA',
-        template: '<div></div>'
+        template: '<div></div>',
         templateUrl: 'template.tpl.html',
         link: function (scope, element, attributes) {
           $0
