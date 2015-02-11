@@ -5,6 +5,8 @@
     { "trigger": "ete", "contents": "expect(${1:target}).toEqual(${2:value});" },
     { "trigger": "ee", "contents": "expect(${1:target}).toEqual(${2:value});" },
     { "trigger": "etb", "contents": "expect(${1:target}).toBe(${2:value});" },
+    { "trigger": "ett", "contents": "expect(${1:target}).toBeTruthy();" },
+    { "trigger": "etf", "contents": "expect(${1:target}).toBeFalsy();" },
     { "trigger": "eb", "contents": "expect(${1:target}).toBe(${2:value});" },
     { "trigger": "etbd", "contents": "expect(${1:target}).toBeDefined();$0" },
     { "trigger": "entbd", "contents": "expect(${1:target}).not.toBeDefined();$0" },
