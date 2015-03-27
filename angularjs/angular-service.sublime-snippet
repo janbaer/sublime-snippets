@@ -1,17 +1,19 @@
 <snippet>
-	<content><![CDATA[(function (${2:services}) {
+	<content><![CDATA[(function (angular) {
   'use strict';
 
-  ${2:services}.factory('${3:MyService}', ['\$http',
-    function(\$http) {
-      $0
-      return {
-      };
-    }
-  ]);
-})(angular.module('${1:namespace}'));
+  angular.module('${1:namespace}')
+    .factory('${2:servicename}', ${3:functionName});
 
-]]></content>
+  ${3:functionName}.\$inject = [];
+
+  function ${3:functionName} ($scope) {
+    $0
+    return {
+
+    };
+  }
+})(window.angular);]]></content>
 	<tabTrigger>service</tabTrigger>
 	<scope>source.js</scope>
 	<description>AngularJS service</description>

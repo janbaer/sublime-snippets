@@ -1,23 +1,26 @@
 <snippet>
-  <content><![CDATA[(function (${2:moduleName}) {
+  <content><![CDATA[(function (angular) {
   'use strict';
 
-  ${2:moduleName}.directive('${3:myDirective}', [
-    function () {
-      return {
-        require: 'ngModel',
-        scope: {
-        },
-        restrict: 'EA',
-        template: '<div></div>',
-        templateUrl: 'template.tpl.html',
-        link: function (scope, element, attributes) {
-          $0
-        }
-      };
-    }
-  ]);
-})(angular.module('${1:namespace}'));]]></content>
+  angular.module('${1:namespace}')
+    .directive('${2:servicename}', ${3:functionName});
+
+  ${3:functionName}.\$inject = [];
+
+  function ${3:functionName} ($scope) {
+    return {
+      require: 'ngModel',
+      scope: {
+      },
+      restrict: 'EA',
+      template: '<div></div>',
+      templateUrl: 'template.tpl.html',
+      link: function (scope, element, attributes) {
+        $0
+      }
+    };
+  }
+})(window.angular);]]></content>
   <tabTrigger>directive</tabTrigger>
   <scope>source.js</scope>
   <description>AngularJS directive</description>
