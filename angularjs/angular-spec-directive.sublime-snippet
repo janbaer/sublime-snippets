@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[describe('Directive${1:myDirective}', function () {
+  <content><![CDATA[describe('${1:myDirective} specs', function () {
   'use strict';
 
   var \$rootScope, \$compile;

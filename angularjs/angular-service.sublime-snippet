@@ -3,11 +3,11 @@
   'use strict';
 
   angular.module('${1:namespace}')
-    .factory('${2:servicename}', ${3:functionName});
+    .factory('${2:servicename}', ${2:servicename});
 
-  ${3:functionName}.\$inject = [];
+  ${2:servicename}.\$inject = [];
 
-  function ${3:functionName} ($scope) {
+  function ${2:servicename} ($scope) {
     $0
     return {
 

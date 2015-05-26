@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[describe('${1:ctrl}', function () {
+  <content><![CDATA[describe('${1:ctrl} specs', function () {
   'use strict';
 
   var $scope, controller;

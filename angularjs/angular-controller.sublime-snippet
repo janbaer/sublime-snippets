@@ -3,11 +3,11 @@
   'use strict';
 
   angular.module('${1:namespace}')
-    .controller('${2:MyCtl}', ${3:functionName});
+    .controller('${2:controllerName}', ${2:controllerName});
 
-  ${3:functionName}.\$inject = ['$scope'];
+  ${2:controllerName}.\$inject = ['$scope'];
 
-  function ${3:functionName} ($scope) {
+  function ${2:controllerName} ($scope) {
     $0
   }
 })(window.angular);]]></content>

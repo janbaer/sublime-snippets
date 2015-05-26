@@ -3,11 +3,11 @@
   'use strict';
 
   angular.module('${1:namespace}')
-    .directive('${2:servicename}', ${3:functionName});
+    .directive('${2:directiveName}', ${2:directiveName});
 
-  ${3:functionName}.\$inject = [];
+  ${2:directiveName}.\$inject = [];
 
-  function ${3:functionName} ($scope) {
+  function ${2:directiveName} ($scope) {
     return {
       require: 'ngModel',
       scope: {

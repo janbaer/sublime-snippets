@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[describe('${1:service} tests', function () {
+  <content><![CDATA[describe('${1:service} specs', function () {
   'use strict';
 
   var service, httpMock;
