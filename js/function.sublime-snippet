@@ -1,7 +1,7 @@
 <snippet>
-	<content><![CDATA[function ($1) {
+	<content><![CDATA[function $1($2) {
   $0
-}$2]]></content>
+}$3]]></content>
 	<tabTrigger>func</tabTrigger>
 	<scope>source.js,source.ts</scope>
 </snippet>
